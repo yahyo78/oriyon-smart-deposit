@@ -27,6 +27,7 @@ export default function Home() {
             <MapPin size={16} color="#747272" className="mt-[2px] ml-2" />
             <p className="text-[#747272] hover:text-amber-400 cursor-pointer text-[15px]">
               Офисҳо ва банкоматҳо
+              
             </p>
           </div>
         </div>
