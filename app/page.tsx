@@ -94,6 +94,7 @@ export default function Home() {
               РМА: 020003038, РЯМ: 350101369
             </p>
             <p className="text-gray-700">
+              
               Почтаи электронӣ:{" "}
               <a
                 href="mailto:info@Oriyonbonk.tj"
