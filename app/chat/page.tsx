@@ -19,6 +19,7 @@ export default function Chat() {
             <div>
               <h2 className="text-lg font-semibold text-gray-900">Ориёнбонк</h2>
               <p className="text-sm text-gray-500">Онлайн</p>
+              
             </div>
           </div>
           <div className="flex items-center gap-4">
