@@ -2,7 +2,12 @@
 
 import { ArrowLeft } from "lucide-react";
 
-export default function BackButton({ step, onBack }) {
+type BackButtonProps = {
+  step: number;
+  onBack: () => void;
+};
+
+export default function BackButton({ step, onBack }: BackButtonProps) {
   if (step === 0 || step === 4) return null; // Hidden on step 0 and disabled on loading step (4)
 
   return (

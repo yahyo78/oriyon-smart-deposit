@@ -14,8 +14,8 @@ const Navbar = () => {
   return (
     <div>
       <div className="w-[100%] fixed top-0 z-50 bg-white shadow-md shadow-gray-200">
-        <div className="flex justify-between gap-20 mt-5 xl:px-[40px] pb-4">
-          <Image className="cursor-pointer" src={img1} alt="" />
+        <div className="flex justify-between gap-4 sm:gap-10 md:gap-20 mt-3 sm:mt-4 md:mt-5 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-[40px] pb-3 sm:pb-4">
+          <Image className="cursor-pointer w-24 sm:w-32 md:w-auto h-auto" src={img1} alt="" />
 
 
           <div className='flex gap-5'>
